@@ -7,19 +7,19 @@
 ```
 /src/application - слой сервис логики приложения 
     - /services: сервисы бизнес логики
-        - /service
+        - /service-name
             - / traits
 ```
 
-Папка `service` является самим сервисом и должна называться соответствующим образом с привязкой к предметной области. 
-Для корректного оперирования действиями сервиса лучше выносить действия в отдельные структуры:
+Папка `service-name` является самим сервисом и должна называться соответствующим образом с привязкой к предметной 
+области. Для корректного оперирования действиями сервиса лучше выносить действия в отдельные структуры:
 
 ```
-/src/application/services/service: конкретный сервис
+/src/application/services/service-name: конкретный сервис
     - /create
-        - ServiceCreate.php
-        - ServiceCreateValidation.php
-        - ServiceCreateException.php 
+        - ServiceNameCreate.php
+        - ServiceNameCreateValidation.php
+        - ServiceNameCreateException.php 
     - /traits
 ```
 
@@ -28,11 +28,11 @@
 приложения может выглядеть следующим образом: 
 
 ```
-/src/application/services/service: конкретный сервис
+/src/application/services/service-name: конкретный сервис
     - /create
-        - ServiceCreate.php
-        - ServiceCreateValidation.php
-        - ServiceCreateException.php
+        - ServiceNameCreate.php
+        - ServiceNameCreateValidation.php
+        - ServiceNameCreateException.php 
         - /dto
     - /traits
 ```
