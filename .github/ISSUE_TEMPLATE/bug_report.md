@@ -1,39 +1,20 @@
 ---
-name: Bug report about: Create a report to help us improve title: ''
-labels: ''
-assignees: ''
+name: Новая идея
+about: Предложите идею для этого проекта
+title: ''
+labels: enhancement
+assignees: mepihindeveloper
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+** Связан ли ваш запрос на функцию с какой-либо проблемой? Пожалуйста, опишите.**
+Четкое и краткое описание того, в чем заключается проблема. Например. Я всегда расстраиваюсь, когда [...]
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Опишите решение, которое вы хотели бы получить**
+Четкое и краткое описание того, что вы хотите, чтобы произошло.
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+** Опишите альтернативы, которые вы рассматривали**
+Четкое и краткое описание любых альтернативных решений или функций, которые вы рассмотрели.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
-
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
-- Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
-
-- Device: [e.g. iPhone6]
-- OS: [e.g. iOS8.1]
-- Browser [e.g. stock browser, safari]
-- Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**Дополнительный контекст**
+Добавьте сюда любой другой контекст или скриншоты о запросе функции.
