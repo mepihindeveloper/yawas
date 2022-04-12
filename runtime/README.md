@@ -5,8 +5,8 @@
 
 ## Файловая структура
 
-```
+<pre>
 /runtime: переменные/изменяемые файлы
-    - /log: файлы логов
-    - /cache: файлы кеша
-```
+    - <a href="log/README.md">/log</a>: файлы логов
+    - <a href="cache/README.md">/cache</a>: файлы кеша
+</pre>
